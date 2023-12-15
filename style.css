@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#nav{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw 0 5vw;
+}
+
+#cart{
+    /* border: 2px solid red; */
+    width: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+header{
+    /* border: 2px solid rgb(165, 152, 0); */
+    background: url("./assets/kw-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    margin-top: 15vh;
+    margin-left: 5vw;
+    font-size: x-large;
+}
+
+#header-img{
+    /* border: 2px solid red; */
+    font-size: xx-large;
+    /* margin: 10vh 0 0 10vw; */
+    color: white;
+    height: 50vh;
+}
+
+#header-img>h1{
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+#header-img>h5{
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+
+.container{
+    /* border: 20px solid rgb(0, 91, 103); */
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin-top: 3vh;
+}
+
+.books{
+    height: 250px;
+    width: 200px;
+}
+.games{
+    height: 250px;
+    width: 265px;
+}
+.games{
+    height: 250px;
+    width: 280px;
+}
+.crafts{
+    height: 250px;
+    width: 280px;
+}
+
+h4{
+    font-weight: lighter;
+    color: rgb(130,130,129);
+}
+
+.buy{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy>p{
+    /* border: 2px solid red; */
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.Add-button{
+    background-color: rgb(97,150,255);
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    font-size: x-large;
+}
+.Add-button>img{
+    height: 15px;
+    width: 15px;
+}
+
+footer{
+    /* border: 5px solid rgb(180, 0, 147); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0 5vw 0 5vw;
+    margin-top: 10vh;
+}
+footer>div>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#details{
+    /* border: 2px solid red; */
+    text-align: end;
+}
